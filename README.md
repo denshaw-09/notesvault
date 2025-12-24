@@ -1,31 +1,52 @@
-# 📚 NotesVault – Academic Notes & PYQs Manager
+                  🚨 Please make sure you are sending pull requrest for 'master' branch.
+                                            
 
-**NotesVault** is a beginner-friendly, open-source web app designed to help students **store, browse, and manage academic notes and previous year questions (PYQs)** in one place. This project is perfect for contributors who want to build and grow a useful educational tool from scratch.
+# 📚 NotesVault - Academic Resource Management Platform
+
+**NotesVault** is an open-source, full-stack web application designed to help **students**, **faculty**, and **academic institutions** efficiently store, browse, and manage academic notes, question papers, and educational resources. Built with modern technologies and inspired by platforms like RGPV Online, it provides a comprehensive solution for academic resource sharing.
+
+---
+
+## ✨ Key Features
+
+### 📖 Core Functionality
+
+- **Multi-format Resource Support**: Store and serve PDFs, documents, images, and various academic materials
+- **Advanced Search & Filtering**: Find resources by course, semester, subject, year, and keywords
+- **Hierarchical Organization**: Browse by university → course → branch → semester → subject
+- **Question Paper Archive**: Comprehensive previous year questions (PYQs) with year-wise categorization
+- **Notes Management**: Organized lecture notes, study materials, and reference documents
+- **Syllabus Repository**: Complete syllabus documents for all courses and branches
+
+### 👥 User Management
+
+- **JWT Authentication**: Secure token-based authentication system
+- **User Profiles**: Personalized dashboards with upload history and bookmarks
+- **Registration System**: Easy signup with email verification
+
+### 🔧 Technical Features
+
+- **RESTful API**: Clean, documented API endpoints for all operations
+- **Responsive Design**: Mobile-first approach with cross-device compatibility
+- **Dark/Light Theme**: User preference-based theming
 
 ---
 
-## ✨ Features (Planned)
-
-* Browse notes and PYQs by subject/semester
-* Search and filter by keywords
-* Add new notes manually (or from JSON for demo)
-* Responsive design for all devices
-* Dark/light mode toggle
-* Upload UI and metadata editing
-* Tag-based filtering
-
----
 
 ## 📁 Folder Structure (Suggested)
 
 ```
 notesvault/
-├── index.html         # Homepage UI
-├── style.css          # Global styles and theming
-├── script.js          # Application logic (load/display/filter)
-├── data/              # JSON files for notes/PYQs
-│   └── notes.json
 ├── assets/            # Icons, PDFs, static files
+    └── <asset_folders>
+├── data/              # All JSON files for notes/PYQs
+│   └── notes.json
+├── pages/             # All pages used in the project
+│   └── <all .html files>
+├── scripts            # Application logic (load/display/filter)
+    └── <scripts>
+├── styling            # Global styles and theming
+    └── <style files>
 └── README.md
 ```
 
@@ -46,9 +67,9 @@ Simply open `index.html` in your browser. All data is stored locally via JSON or
 
 3. **Develop and test**
 
-* Edit `notes.json` to simulate new data
-* Modify layout or logic in `style.css` and `script.js`
-* Use browser DevTools to inspect results
+- Edit `notes.json` to simulate new data
+- Modify layout or logic in `style.css` and `script.js`
+- Use browser DevTools to inspect results
 
 ---
 
@@ -58,12 +79,12 @@ We welcome all kinds of contributions, especially from beginners! Since the proj
 
 **Good first issues:**
 
-* Setup basic UI structure or card layout
-* Add new subjects or notes to JSON
-* Implement search and filtering logic
-* Improve design responsiveness
-* Add support for dark mode
-* Add upload simulation with preview
+- Setup basic UI structure or card layout
+- Add new subjects or notes to JSON
+- Implement search and filtering logic
+- Improve design responsiveness
+- Add support for dark mode
+- Add upload simulation with preview
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
